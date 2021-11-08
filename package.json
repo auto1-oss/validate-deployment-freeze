@@ -1,0 +1,22 @@
+{
+  "name": "check-prod-freeze",
+  "version": "1.0.0",
+  "description": "To check if deployment time falling in between freeze time 4pm to 6pm CET.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auto1-oss/validate-deployment-freeze.git"
+  },
+  "author": "amar.khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auto1-oss/validate-deployment-freeze/issues"
+  },
+  "homepage": "https://github.com/auto1-oss/validate-deployment-freeze#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}

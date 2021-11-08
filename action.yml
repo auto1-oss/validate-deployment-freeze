@@ -1,0 +1,26 @@
+name: 'Production Freeze Window Validator'
+description: 'Check deployment time with auction freeze window GH Actions workflow'
+author: 'Amar Khan'
+inputs:
+  env:
+    description: 'Set to qa or prod'
+    default: ''
+    required: true  
+  force_deploy:
+    description: 'Set to True if override freeze window validation'
+    default: 'false'
+    required: false
+  freezeStart:
+    description: 'Set freeze start time in HH:MM formate. Default Timezone is CET'
+    default: 'false'
+    required: true
+  freezeEnd:
+    description: 'Set freeze end time in HH:MM formate. Default Timezone is CET'
+    default: 'false'
+    required: true        
+runs:
+  using: 'node12'
+  main: 'main.js'
+branding:
+  icon: 'terminal'
+  color: 'yellow'
