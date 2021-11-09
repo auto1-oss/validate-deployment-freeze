@@ -26,4 +26,6 @@ uses: actions/check-prod-freeze@v1.0
 with:
   env: 'prod'
   force_deploy: false
+  freezeStart: "10:00"
+  freezeEnd: "12:00"
 ```
