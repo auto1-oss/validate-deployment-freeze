@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/auto1-oss/validate-deployment-freeze#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0"
+    "@actions/core": "^1.9.1"
   }
 }
